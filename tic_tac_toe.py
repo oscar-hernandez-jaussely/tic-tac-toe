@@ -101,7 +101,7 @@ class TicTacToeBoard(tk.Tk):
         display_frame.pack(fill=tk.X)
         self.display = tk.Label(
             master=display_frame,
-            text="Welcome to Vault-Tec's TicTacToe game ! \n Ready ? \n",
+            text="Welcome to TicTacToe game ! \n Ready ? \n",
             font=font.Font(size=18, weight="bold"),
             background=bg_color,
             foreground="white"
