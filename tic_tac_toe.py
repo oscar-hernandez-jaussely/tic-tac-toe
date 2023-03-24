@@ -142,7 +142,7 @@ class TicTacToeBoard(tk.Tk):
             self._update_button(clicked_btn)
             self._game.process_move(move)
             if self._game.is_tied():
-                self._update_display(msg="\nTied game !", color="red")
+                self._update_display(msg="\nTied game ! \n", color="red")
             elif self._game.has_winner():
                 self._highlight_cells()
                 msg = f'\nPlayer "{self._game.current_player.label}" won ! \n'
